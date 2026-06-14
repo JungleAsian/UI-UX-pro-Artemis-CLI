@@ -1,0 +1,29 @@
+{
+  "name": "ui-ux-pro-artemis-cli",
+  "version": "0.1.0",
+  "description": "Clean-room UI/UX assistant installer CLI for frontend design workflows, with no telemetry, no postinstall hooks, and offline-first templates.",
+  "type": "module",
+  "bin": {
+    "uipro-artemis": "./bin/uipro-artemis.js",
+    "uipro-clean": "./bin/uipro-artemis.js"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "assets",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node ./bin/uipro-artemis.js doctor",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": ["ui", "ux", "design-system", "ai-skill", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
