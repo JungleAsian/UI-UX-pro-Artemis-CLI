@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "principles": [
+    "Prioritize task completion over decoration.",
+    "Use hierarchy to make the primary action obvious.",
+    "Use consistent spacing and component states.",
+    "Design mobile layout intentionally, not as an afterthought.",
+    "Meet WCAG AA contrast for normal text whenever possible."
+  ],
+  "productTypes": {
+    "saas": {
+      "goals": ["clarity", "efficiency", "trust"],
+      "patterns": ["dashboard", "sidebar navigation", "data tables", "empty states"]
+    },
+    "ecommerce": {
+      "goals": ["confidence", "discoverability", "conversion"],
+      "patterns": ["product cards", "filters", "cart summary", "checkout steps"]
+    },
+    "content": {
+      "goals": ["readability", "navigation", "retention"],
+      "patterns": ["editorial layout", "table of contents", "related content", "progress indicator"]
+    },
+    "fintech": {
+      "goals": ["trust", "clarity", "risk reduction"],
+      "patterns": ["balance overview", "transaction list", "confirmation screens", "security messaging"]
+    }
+  }
+}
