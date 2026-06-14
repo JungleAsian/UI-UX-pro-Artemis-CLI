@@ -63,7 +63,7 @@ node .claude/skills/ui-ux-artemis/assets/scripts/design-system.mjs "fintech dash
 
 ## Documentation
 
-- [Installation](docs/INSTALLATION.md)
+- [Getting started](docs/GETTING_STARTED.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [AI assistant usage](docs/AI-ASSISTANTS.md)
 - [Security audit notes](docs/SECURITY-AUDIT.md)
